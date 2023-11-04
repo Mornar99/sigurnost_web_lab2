@@ -51,7 +51,12 @@ function App() {
         nemoguce unijeti ovu naredbu, tj button za spremanje u bazu ce biti
         onemogucen. Loša autentifikacija je izvedena na nacin da se prijaviti
         moze samo preko 3 kombinacije usernamea i lozinke koji su unaprijed
-        navedeni u kodu, nalaze se u datoteci server.js
+        navedeni u kodu, nalaze se u datoteci server.js{" "}
+        <p>
+          Aplikacija se pokrece iz 2 terminala: u prvi unijeti : "npm start",a u
+          drugi: "node server.js", ali prije toga je potrebno povuci sa githuba
+          i instalirati potrebne pakete pomocu: "npm install".
+        </p>
       </p>
       <div className="flex-row">
         <input type="checkbox" onClick={(e) => setChecked(!checked)}></input>
